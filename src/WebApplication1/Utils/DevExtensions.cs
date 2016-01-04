@@ -12,7 +12,6 @@ namespace WebApplication1
     {
         public static void ASPxGridViewInit(this ASPxGridView grid)
         {
-            CustomLocalizer.MyGridLocalizer.Activate();
             grid.SettingsLoadingPanel.Text = "加载中";
             grid.SettingsBehavior.ConfirmDelete = true;
 
